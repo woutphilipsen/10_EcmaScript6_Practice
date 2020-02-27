@@ -174,11 +174,12 @@
     };
 
     $.extend(Helper.prototype, {
-        calculateTotalWeight: () => {
-            var totalWeight = 0;
+        calculateTotalWeight: function() {
+            let totalWeight = 0;
             this.$wrapper.find('tbody tr').each( (index, element) => {
                 totalWeight += $(element).data('weight');
             });
+            console.log(totalWeight);
 
             return totalWeight;
         }
