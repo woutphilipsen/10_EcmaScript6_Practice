@@ -12,7 +12,7 @@
             '.js-delete-rep-log',
             this.handleRepLogDelete.bind(this)
         );
-        this.$wrapper.on(
+        this.$wrapper.on(a
             'click',
             'tbody tr',
             this.handleRowClick.bind(this)
