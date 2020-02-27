@@ -12,6 +12,6 @@ let copyOfGreatThings = [...greatThings];
 copyOfGreatThings.push('summer');
 
 console.log(greatThings);
-console.log(copyOfGreatThings)
+console.log(copyOfGreatThings);
 
 // printThreeThings(...yummyThings);
