@@ -224,7 +224,7 @@
                 totalWeight += repLog.totalWeightLifted;
             }
 
-            return totalWeight
+            return totalWeight;
         }
     }
 
